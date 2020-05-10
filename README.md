@@ -6,21 +6,20 @@ The python component is a REST service which interfaces with the http://sandipbg
 
 
 ### Prerequisites
-###Python 
-PIP 
-flask 
-flask-restful 
+Python  
+PIP  
+flask  
+flask-restful  
 requests
 
 ### Deployment
-Using Terminal: FLASK_APP=HoroscopeRestService.py flask run 
+Using Terminal: FLASK_APP=HoroscopeRestService.py flask run  
 Can run on  python based IDE as well.
 
 ### REST Service Endpoints
-GET /today/{sign} 
-GET /tomorrow/{sign} 
-GET /yesterday{sign} 
-
+GET /today/{sign}  
+GET /tomorrow/{sign}  
+GET /yesterday{sign}  
 
 ## Authors
 Julian Dsilva
