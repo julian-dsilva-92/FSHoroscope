@@ -1,8 +1,7 @@
 # Horoscope
 
-A simple full stack application using Python, MongoDB, and Angular that asks the user to input their sun sign and either today, yesterday, or tomorrow
-and returns their horoscope for the chosen day. T
-The python component is a REST service which interfaces with the http://sandipbgt.com/theastrologer-api/api.html REST APIs. 
+A simple application using Python, MongoDB, and Angular that asks the user to input their sun sign and either today, yesterday, or tomorrow
+and returns their horoscope for the chosen day.The python component is a REST service which interfaces with the http://sandipbgt.com/theastrologer-api/api.html REST APIs. Future goals include creating an SPA using angular for users to interact with and MongoDB integration with python to store horoscopes along with their respective days and signs. 
 
 
 ### Prerequisites
