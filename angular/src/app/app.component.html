@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FSHoroscope</title>
+</head>
+<body>
+
+<h1>FS HOROSCOPE</h1>
+<h2>Enter your sun sign along with the horoscope day below</h2>
+
+<mat-form-field>
+  <mat-label>Favorite food</mat-label>
+  <mat-select [(ngModel)]="selectedValue" name="food">
+    <mat-option *ngFor="let food of foods" [value]="food.value">
+      {{food.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<mat-form-field>
+  <mat-label>Favorite food</mat-label>
+  <mat-select [(ngModel)]="selectedValue" name="food">
+    <mat-option *ngFor="let food of foods" [value]="food.value">
+      {{food.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<p> Selected food: {{selectedValue}} </p>
+</body>
+</html>
